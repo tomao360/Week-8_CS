@@ -1,0 +1,8 @@
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\Week8.exe.config
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\Week8.exe
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\Week8.pdb
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.AssemblyReference.cache
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.SuggestedBindingRedirects.cache
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.CoreCompileInputs.cache
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.exe
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.pdb
