@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E486680-9C08-4D77-B2D1-EA1A7A9B0EAB}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Week8</RootNamespace>
-    <AssemblyName>Week8</AssemblyName>
+    <ProjectGuid>{241C7B42-6B0A-4BCD-B4E0-AB64B0CAF658}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyDll</RootNamespace>
+    <AssemblyName>MyDll</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClassLibrary1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>MyRefernce\ClassLibrary1.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,34 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson1-Introduction-13_11_22\Pen.cs" />
-    <Compile Include="Lesson1-Introduction-13_11_22\PenBooster .cs" />
-    <Compile Include="Lesson1-Introduction-13_11_22\Program.cs" />
-    <Compile Include="Lesson1-HW-String-13_11_22\StringFunc.cs" />
-    <Compile Include="Lesson2-Properties_Files-16_11_22\Car.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\Book.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\Drink.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\Food.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\Item.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\RunnerBook.cs" />
-    <Compile Include="Lesson3-Static-17_11_22\RunnerItem.cs" />
-    <Compile Include="main.cs" />
-    <Compile Include="Lesson2-Properties_Files-16_11_22\RunStudent.cs" />
-    <Compile Include="Lesson2-Properties_Files-16_11_22\Student.cs" />
+    <Compile Include="myDll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyDll\MyDll.csproj">
-      <Project>{241c7b42-6b0a-4bcd-b4e0-ab64b0caf658}</Project>
-      <Name>MyDll</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup />
-  <ItemGroup>
-    <Content Include="MyRefernce\ClassLibrary1.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

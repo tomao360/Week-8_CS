@@ -1,0 +1,6 @@
+C:\Users\97252\source\repos\Week8\MyDll\bin\Debug\MyDll.dll
+C:\Users\97252\source\repos\Week8\MyDll\bin\Debug\MyDll.pdb
+C:\Users\97252\source\repos\Week8\MyDll\obj\Debug\MyDll.csproj.AssemblyReference.cache
+C:\Users\97252\source\repos\Week8\MyDll\obj\Debug\MyDll.csproj.CoreCompileInputs.cache
+C:\Users\97252\source\repos\Week8\MyDll\obj\Debug\MyDll.dll
+C:\Users\97252\source\repos\Week8\MyDll\obj\Debug\MyDll.pdb

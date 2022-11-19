@@ -6,3 +6,7 @@ C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.SuggestedBindingR
 C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.CoreCompileInputs.cache
 C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.exe
 C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.pdb
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\MyDll.dll
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\MyDll.pdb
+C:\Users\97252\source\repos\Week8\Week8\obj\Debug\Week8.csproj.CopyComplete
+C:\Users\97252\source\repos\Week8\Week8\bin\Debug\ClassLibrary1.dll

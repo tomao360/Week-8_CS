@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Week8.Lesson1_HW_13_11_22
 {
-    internal class Class1
+    internal class StringFunc
     {
-        static void Main(string[] args)
+        static void Main_2(string[] args)
         {
             string str1, str2;
             str1 = "Hello World";
@@ -94,7 +94,7 @@ namespace Week8.Lesson1_HW_13_11_22
                 }
             }
 
-            switchString("Hello World", "l");
+            switchString("Hello World", "ll");
 
         }
     }
